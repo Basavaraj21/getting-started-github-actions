@@ -34,25 +34,25 @@ jobs:
         run: |
               echo what is in this directory?
               ls -a
-              echo
-              echo java is installed?
-              java --version 
-              echo 
-              echo is git installed?
-              git --version
-              echo what build tools are installed?
-              mvn --version
-              gradle --version
-              ant --version
-              echo
-              echo where is android sdk root?
-              echo $ANDROiD_SDK_ROOT
-              echo 
-              echo what is the workspace location
-              echo $RUNNER_WORKSPACE
-              echo 
-              echo who is running script?
-              whoami
-              echo what environment avilable?
-              env
+               echo
+               echo java is installed?
+               java --version 
+               echo 
+               echo is git installed?
+               git --version
+               echo what build tools are installed?
+               mvn --version
+               gradle --version
+               ant --version
+               echo
+               echo where is android sdk root?
+               echo $ANDROiD_SDK_ROOT
+               echo 
+               echo what is the workspace location
+               echo $RUNNER_WORKSPACE
+               echo 
+               echo who is running script?
+               whoami
+               echo what environment avilable?
+               env
           
