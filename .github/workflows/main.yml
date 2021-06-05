@@ -42,5 +42,5 @@ jobs:
               git --version
               echo 4. what about build tools?
               mvn --version
-		          
-              
+	      gradle --versionant -version   
+
